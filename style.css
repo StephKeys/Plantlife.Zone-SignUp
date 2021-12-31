@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(89.36deg, rgba(118, 216, 162, 0.26) 0.51%, rgba(118, 216, 162, 0.88) 99.43%);
+}
+
+header {
+    font-family: 'Righteous', sans-serif;
+    color: #0B773C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    margin-left: 276px;
+    margin-top: 38px;
+}
+
+main {
+    padding: 32px 48px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h1 {
+    padding-top: 14px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 95px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 40px;
+    padding-top: 54px;
+}
+
+pre {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left:-80px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+i {
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+a {
+    color: #0B773C;
+}
+
+a:hover {
+    color: #7cc89e;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button.submit:hover {
+    background-color: #319b60;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+
+label {
+    margin-top: 10px;
+    padding-bottom: 4px;
+}
+
+input {
+    width: 275px;
+    border: none !important;
+    background: rgba(253, 253, 253, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.font {
+    font-size: 15px;
+}
+
+.green {
+    background-color: #7cc89e;
+    width: 414px;
+    height: 580px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 22px;
+}
+
+.white {
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 414px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.lines {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+}
+
+
+span.lines::after, span.lines::before {
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    margin: auto 0.5em;
+    color: #B9B5B5;
+}
+
+button.general, input.general {
+    font-size: 15px;
+    border-radius: 5px;
+    border: #E0DADA 1px solid;
+    height: 40px;
+}
+
+button.social {
+    width: 180px;
+    background-color: #FFFFFF;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+button.google {
+    background: url(images/Google.png);
+    background-repeat: no-repeat;
+    background-position: -3px 9px;
+    background-size: 40px;
+    padding-left: 15px;
+}
+
+button.facebook {
+    background: url(images/Facebook.png);
+    background-repeat: no-repeat;
+    background-position: -3px 3px;
+    background-size: 40px;
+    padding-left: 15px;
+}
+
+button.submit {
+    width: 275px;
+    background-color: #0B773C;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+span.CreateAccount {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 50px;
+    margin-top: 1000px;
+}
+
+img.logo {
+    width: 65px;
+    height: 52px;
+}
+
+
+img.plants {
+    position:absolute;
+    width: 371px;
+    height: 369px;
+    margin-top: 40px;
+    margin-left: -300px;
+}
